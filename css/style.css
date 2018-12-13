@@ -1,0 +1,197 @@
+.color-theme{
+	background-color: #7E6767!important;
+}
+
+/*Panel Left*/
+.bg-panel{
+  position: relative;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.bottom {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.bg-panel img{
+  margin: 0 auto;
+  display: block;
+}
+
+.lista-menu .list{
+  margin-top: 0;
+  font-size: 14px;
+}
+
+.lista-menu .item-title{
+  font-weight: 500;
+}
+
+.lista-menu .item-media{
+  color: #666;
+}
+
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.title.block{
+	margin: 10px 0;
+}
+
+.title .block-header{
+	color: white;
+	text-align: center;
+	font-size: 16px;
+}
+
+.title p{
+	color: #ffc836;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.img-fluid{
+	max-width: 100%;
+	height: 100%;	
+}
+
+.imagen{
+	padding: 5%;
+	height: 120px;
+}
+
+.content{
+	background-color: white;
+	color: #2e2e2e;
+	padding: 5%;
+	font-weight: 600;
+}
+.content .color-gris{
+	color: #aaa;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.content .color-red{
+	color: #B70003;
+	font-size: 16px;
+	font-weight: normal;
+}
+#bienvenidos .imagen{
+	background-color: #e3091A
+}
+
+
+#ubicaciones .imagen{
+	background-color: #1e4b62;
+	color: #c8c8c8;
+    text-align: center;
+}
+
+#ubicaciones .imagen i{
+	font-size: 100px;
+}
+
+#opinion .imagen{
+	background-color: #ee9d05;
+	color: #be6501;
+    text-align: center;
+}
+
+#opinion .imagen i{
+	font-size: 100px;
+}
+
+
+.mt-5{
+	margin-top: 10px;
+}
+
+
+#quitate-hambre .imagen,
+#instagram .imagen,
+#facebook .imagen{
+	padding: 0;
+	position: relative;
+}
+
+.bg-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-color: rgba(240,188,86,0.60);
+}
+.imagen-info{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	color: #1f4c69;
+	font-size: 18px;
+	font-weight: 800;
+	text-transform: uppercase;
+	padding: 5px 10px;
+}
+
+.imagen-info span{
+	font-size: 12px;
+	font-weight: normal;
+	display: block;
+}
+
+.bg-instagram{
+	background-color: rgba(130,93,144,0.60);
+}
+
+.bg-faceboook{
+	background-color: rgba(55,66,130,0.60);
+}
+
+#instagram i,
+#facebook i{
+	color: white;
+	font-size: 60px;
+}
+
+#menu .list .item-media img{
+	width: 50px;
+}
+
+#menu .list{
+	margin-top: 0;
+}
+
+
+.nutricionales .row{
+	padding: 5px;
+	margin-bottom:  4px;
+}
+
+.nutricionales .row:nth-child(even){
+	background-color: #fff;
+}
+
+.nutricionales .row:nth-child(odd){
+	background-color: #f2f2f2;
+}

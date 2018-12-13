@@ -1,0 +1,368 @@
+<!doctype html>
+<html>
+	
+<head>
+<meta charset="UTF-8">
+<title>Le Creme</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/framework7.min.css" rel="stylesheet">
+	<link href="css/material-icons.css" rel="stylesheet">
+	<link href="css/f7-icons.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="color-theme">
+	
+	<div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+			<section class="panel panel-left panel-cover">
+				<div class="bg-panel">
+					<img src="img/cheesecake.jpg" alt="Panel Hero" class="img-fluid">
+					<div class="centered">La Creame</div>
+					<div class="bottom">Boutique Bakery</div>
+				</div>
+				<article class="lista-menu">
+
+				<div class="list media-list">
+					<ul>
+							<li>
+								<a href="/index/" class="item-content item-link panel-close">
+									<div class="item-media"><i class="material-icons">home</i>
+									</div>
+									<div class="item-inner">
+										<div class="item-title">
+											Home
+										</div>
+									</div>
+								</a>
+							</li>
+								<li>
+									<a href="#" class="item-content item-link panel-close">
+										<div class="item-media"><i class="material-icons">cake</i>
+										</div>
+										<div class="item-inner">
+											<div class="item-title">
+												Cakes
+											</div>
+										</div>
+									</a>
+								</li>
+									<li>
+										<a href="#" class="item-content item-link panel-close">
+											<div class="item-media"><i class="material-icons">spa</i>
+											</div>
+											<div class="item-inner">
+												<div class="item-title">
+													Cupcakes
+												</div>
+											</div>
+										</a>
+									</li>
+										<li>
+											<a href="#" class="item-content item-link">
+												<div class="item-media"><i class="material-icons">ac_unit</i>
+												</div>
+												<div class="item-inner">
+													<div class="item-title">
+														Sweeties
+													</div>
+												</div>
+											</a>
+										</li>
+											<li>
+												<a href="#" class="item-content item-link">
+													<div class="item-media"><i class="material-icons">local_pizza</i>
+													</div>
+													<div class="item-inner">
+														<div class="item-title">
+															Pies
+														</div>
+													</div>
+												</a>
+											</li>
+												<li>
+													<a href="#" class="item-content item-link">
+														<div class="item-media"><i class="material-icons">store</i>
+														</div>
+														<div class="item-inner">
+															<div class="item-title">
+																Stores
+															</div>
+														</div>
+													</a>
+												</li>
+													<li>
+														<a href="#" class="item-content item-link">
+															<div class="item-media"><i class="material-icons">card_giftcard</i>
+															</div>
+															<div class="item-inner">
+																<div class="item-title">
+																	Delivery
+																</div>
+															</div>
+														</a>
+													</li>
+														<li>
+															<a href="#" class="item-content item-link">
+																<div class="item-media"><i class="material-icons">favorite</i>
+																</div>
+																<div class="item-inner">
+																	<div class="item-title">
+																		Favorites
+																	</div>
+																</div>
+															</a>
+														</li>
+					</ul>
+				</div>
+				</article>
+			</section>
+
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-inner">
+				<div class="left">
+					<a href="#" class="icon-only link panel-open" data-panel="left">
+						<i class="material-icons">
+						menu
+						</i>
+					</a>
+				</div>
+				        <div class="title">Cakes</div>
+            </div>
+          </nav>
+					<div class="subnavbar">
+						<form class="searchbar searchbar-init" data-searchbar-container=".list" data-search-in=".item-content">
+						<div class="searchbar-inner">
+							<div class="searchbar-input-wrap">
+								<input type="search" placeholder="Search">
+								<i class="searchbar-icon"></i>
+								<span class="input-clear-button"></span>
+							</div>
+								<span class="searchbar-disable-button">Cancel</span>
+						</div>
+						</form>
+					</div>
+		
+	
+
+      
+			
+			<!-- Tabs -->
+			<section class="page-content">
+			<div class="toolbar tabbar">
+		
+			<div class="toolbar-inner">
+			<a href="#tabCakes" class="tab-link tab-link-active">Cakes</a>
+			<a href="#tabCookies" class="tab-link tab-link-active">Cookies</a>
+				
+			</div>
+		</div>
+
+			<div class="tabs-animated-wrap">
+		<div class="tabs">
+		
+	<div class="block tab tab-info" id="tabCakes">
+		
+		
+				<div class="row">
+					<articles class="col-50">
+						<div id="blueberry">
+							<a href="/info-producto/">
+							<div class="imagen">
+								<img src="img/blueberry-cake.jpg" 
+									 alt="blueberry" 
+									 class="img-fluid">
+							</div>
+							<div class="content">
+								<p class="color-gris">Blueberry Cake</p>
+								<p class="color-red">$15</p>
+							</div>
+							</a>
+						</div>
+						
+										
+						
+						<div id="raspberry">
+							<a href="/info-product/">
+							<div class="imagen">
+								<img src="img/raspberry-meringue.jpg" 
+									 alt="blueberry" 
+									 class="img-fluid">
+							</div>
+							<div class="content">
+								<p class="color-gris">Raspberry Merenguine</p>
+								<p class="color-red">$18</p>
+							</div>
+							</a>
+						</div>
+						
+						<div id="cheesecake">
+							<div class="imagen">
+								<img src="img/cheesecake.jpg" 
+									 alt="cheesecake" 
+									 class="img-fluid">
+							</div>
+							<div class="content">
+								<p class="color-gris">Cheesecake</p>
+								<p class="color-red">$15</p>
+							</div>
+						</div>	
+			</articles>
+		
+					<articles class="col-50">
+						
+						
+						<div id="lemon">
+							<div class="imagen">
+								<img src="img/lemon-pie.jpg" 
+									 alt="lemonpie" 
+									 class="img-fluid">
+							</div>
+							<div class="content">
+								<p class="color-gris">Lemon Pie</p>
+								<p class="color-red">$16</p>
+							</div>
+						</div>		
+						
+						<div id="chocolate">
+							<div class="imagen">
+								<img src="img/chocolate-cake.jpg" 
+									 alt="chocolate" 
+									 class="img-fluid">
+							</div>
+							<div class="content">
+								<p class="color-gris">Chocolate Cake</p>
+								<p class="color-red">$10</p>
+							</div>
+						</div>
+						
+						<div id="tiramisu">
+							<div class="imagen">
+								<img src="img/tiramisu.jpg" 
+									 alt="tiramisu" 
+									 class="img-fluid">
+							</div>
+							<div class="content">
+								<p class="color-gris">Tiramisú</p>
+								<p class="color-red">$18</p>
+							</div>
+						</div>					
+						
+			</articles>
+		
+					
+						
+						
+						
+						
+		
+		</div>
+				</div>
+				<div class="block tab tab-info" id="tabCookies">
+		
+		
+				<div class="row">
+					<articles class="col-50">
+						<div id="chips">
+							<div class="imagen">
+								<img src="img/Chocolate-Chip-vegan-dairy-free-organic-cookie-mix-2.jpg" 
+									 alt="chips" 
+									 class="img-fluid">
+							</div>
+							<div class="content">
+								<p class="color-gris">Chocolate Chips</p>
+								<p class="color-red">$15</p>
+							</div>
+						</div>
+						
+						<div id="ginger">
+							<div class="imagen">
+								<img src="img/galletas-munecos-int.jpg" 
+									 alt="ginger" 
+									 class="img-fluid">
+							</div>
+							<div class="content">
+								<p class="color-gris">Ginger Bread</p>
+								<p class="color-red">$10</p>
+							</div>
+						</div>		
+						
+						<div id="raspberrycookies">
+							<div class="imagen">
+								<img src="img/Sinterklaas-Cookies_EXPS_UCSBZ17_81162_D06_02_2b.jpg"
+									 alt="raspberry" 
+									 class="img-fluid">
+							</div>
+							<div class="content">
+								<p class="color-gris">Raspberry Cookies</p>
+								<p class="color-red">$18</p>
+							</div>
+						</div>
+						
+						
+			</articles>
+		
+					<articles class="col-50">
+						<div id="confetti">
+							<div class="imagen">
+								<img src="img/confetti-cookies1.jpg" 
+									 alt="chocolate" 
+									 class="img-fluid">
+							</div>
+							<div class="content">
+								<p class="color-gris">Confetti Cookies</p>
+								<p class="color-red">$12</p>
+							</div>
+						</div>
+						
+						<div id="peanut">
+							<div class="imagen">
+								<img src="img/PBCookiesMR.jpg" 
+									 alt="Peanut Butter" 
+									 class="img-fluid">
+							</div>
+							<div class="content">
+								<p class="color-gris">Peanut Butter</p>
+								<p class="color-red">$16</p>
+							</div>
+						</div>					
+						
+						<div id="mint">
+							<div class="imagen">
+								<img src="img/Chocolate-Chip-vegan-dairy-free-organic-cookie-mix-2.jpg" 
+									 alt="mint" 
+									 class="img-fluid">
+							</div>
+							<div class="content">
+								<p class="color-gris">Chocolate and Mint</p>
+								<p class="color-red">$18</p>
+							</div>
+						</div>	
+			</articles>
+		
+					
+		</div>
+				</div>
+				</div>
+				</div>
+          <!-- Scrollable page content -->
+          
+	</section>
+			
+	<script src="js/framework7.min.js"></script>
+	<script src="js/my-app.js"></script>
+
+		  </div>
+		</div>
+	</div>
+</body>
+	
+</html>
